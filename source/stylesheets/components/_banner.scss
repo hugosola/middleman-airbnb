@@ -1,5 +1,5 @@
 .banner {
-  color: white;
+  // color: $text-color;
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -19,4 +19,12 @@
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+.banner a {
+  color: $green;
+}
+
+.banner a:hover {
+  color: $red;
 }
